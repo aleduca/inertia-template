@@ -3,6 +3,8 @@ import { createApp, h } from 'vue'
 import { createInertiaApp, Link } from '@inertiajs/vue3'
 import Layout from './Pages/Layout.vue'
 import AppHead from './Components/AppHead.vue'
+import VueSnip from 'vue-snip'
+import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 
 createInertiaApp({
   title: function(title) {
@@ -23,6 +25,8 @@ createInertiaApp({
   setup({ el, App, props, plugin }) {
     createApp({ render: () => h(App, props) })
       .use(plugin)
+      .use(VueSnip)
+      .use(ZiggyVue)
       .component('AppHead', AppHead)
       .component('Link', Link)
       .mount(el)
