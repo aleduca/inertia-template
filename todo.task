@@ -1,7 +1,5 @@
-Tabelas:
-  ✔ User -> users @done(24-08-23 10:35)
-  ✔ Post -> posts @done(24-08-23 10:35)
-  ✔ Category -> categories @done(24-08-23 10:35)
-  ✔ Comment -> comments @done(24-08-23 10:35)
-  ✔ Tag -> tags @done(24-08-23 10:35)
-  ✔ PostTag -> post_tags @done(24-08-23 10:35)
+☐ Colocar imagem do autor do post
+☐ Criar tabela de Reply
+☐ Criar tabela de Like
+☐ Criar funcionalidade de criar comentário
+☐ Criar funcionalidade de responder comentário
